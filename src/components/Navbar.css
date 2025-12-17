@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tab {
+  width: 140px;
+  height: 32px;
+  border-radius: 15px 15px 0 0;
+  background: #fff8e9;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  color: #EF537E;
+  text-decoration: none;
+}
+
