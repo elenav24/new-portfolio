@@ -1,8 +1,10 @@
 .navbar {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 5vh;
+  padding-left: 4vh;
   display: flex;
   flex-direction: row;
+  gap: 10px;
 }
 
 .tab {
@@ -10,14 +12,22 @@
   height: 32px;
   border-radius: 15px 15px 0 0;
   background: #fff8e9;
-  margin-right: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.link {
-  color: #EF537E;
+  color: #ef537e;
   text-decoration: none;
 }
 
+.home {
+  background: #ef537e;
+  color: #cded99;
+}
+
+.about {
+  background: #ffd586;
+}
+
+.experience {
+  background: #9cd7f9;
+}
