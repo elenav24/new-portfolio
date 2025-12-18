@@ -1,0 +1,48 @@
+.footer-container {
+    margin-top: auto;
+    background: #FFF8E9;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 40px;
+    height: 8vh;
+    color: #EF537E;
+}
+
+.socials {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+}
+
+.linkedin {
+    transform: scale(.95);
+}
+
+.insta {
+    transform: scale(1.2);
+}
+
+.copyright, .source-code {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+    color: #EF537E; 
+}
+
+.symbol {
+    transform: translateY(.4px);
+}
+
+.commit {
+    transform: translateY(1.5px);
+}

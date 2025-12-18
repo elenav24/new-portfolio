@@ -13,12 +13,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .site-container {
     display: flex;
     width: 100%;
-    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
 }
 
 .site-content {
     width: 80%;
+    flex: 1;
 }
